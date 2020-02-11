@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="form.css">
+<title>To THE NEW</title>
+</head>
+<body>
+<div id="head">
+	<span>TO THE NEW</span>
+<div id="nav">
+	<ul>
+		<li>Home</li>
+		<li> Quick Help</li>
+	</ul>
+</div>
+<h3>Bug Report</h3>
+<form class="form" method="post" action="#">
+<label>
+	Title*:
+</label>
+<input type="text">
+<label>
+	Description*:
+</label>
+<textarea name="message" rows="5" cols="20"></textarea>
+<label>
+	Operating System:
+</label>
+
+<select name="Operating System">
+  <option class="select"  value="Windows XP">Windows XP</option>
+  <option  class="select"  value="Windows 7">Windows 7</option>
+  <option class="select"  value="Windows 10">Windows 10</option>
+  <option class="select" value="Windows Vista">Windows Vista</option>
+</select>
+
+
+<label>
+Product*:
+</label>
+<select name="Product">
+  <option value="Windows XP">Formoid</option>
+  <option value="Windows 7">Microsoft Office</option>
+</select>
+<label>
+	Version*:
+</label>
+<input type="number" name="version" min=1 max=4>
+<label>
+	License:
+</label>
+<fieldset>
+ <input type="radio" name="license" value="Free"><label>Free </label>
+ <input type="radio" name="license" value="Business"><label>Business </label>
+</fieldset>
+
+<label>
+	Severity:
+</label>
+<select name="Severity">
+  <option class="select" value="Critical">Critical</option>
+  <option class="select" value="Major">Major</option>
+</select>
+
+<label>
+	Attachments:
+</label>
+<input type="file" name="documents" accept="file/*">
+
+<div class="divide">
+<input type="Submit" name="Send" value="Send">
+</div>
+</form>
+<br/>
+<br/>
+
+</body>
+</html>

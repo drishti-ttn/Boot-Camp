@@ -1,0 +1,98 @@
+
+body{
+background-color: rgb(31, 30, 30);
+}
+
+h1{
+margin-left: 75px;
+}
+
+#head{
+    margin-left: 80px;
+    background-color:rgb(139, 131, 131);
+    width: 90%;
+}
+
+#nav{
+margin-left: 80px;
+width:84%;
+height: 50px;
+margin-top:10px;
+background-color:#696969;
+}
+
+#nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;}
+
+#nav ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+#nav ul li{
+    float: left;
+}
+
+#main {
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+}
+#mainBox {
+    margin-left: 60px;
+}
+
+#textBox {
+    background-color: rgba(104, 111, 114, 0.178);
+    max-width: 87%;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+#paraText {
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+#line {
+    color: gray;
+    max-width: 950px;
+    margin-left: 60px;
+}
+#flexContainer {
+    display: flex;
+    margin-left: 45px;
+  }
+
+#flexContainer div {
+    background-color: #f1f1f1;
+    margin: 15px;
+  }
+
+#footer {
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 87.5%;
+   margin-left: 87px;
+   background-color: rgb(0, 0, 0);
+   color: white;
+   padding: 10px;
+   text-align: center;
+}
+
+#span1 {
+    float: left;
+}
+
+#span2 {
+    float: right;
+}
