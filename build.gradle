@@ -1,0 +1,40 @@
+buildscript {
+    dependencies {
+        classpath files(
+                'show-date/build/libs/show-date-1.0-SNAPSHOT.jar'
+        )
+    }
+}
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+sourceSets{
+    main{
+        java.srcDir 'src/main/JavaCode1'
+        java.srcDir 'src/main/JavaCode2'
+    }
+}
+jar{
+    manifest{
+        attributes 'Main-Class' : 'printHello'
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'junit', name: 'junit', version: '4.12'
+    runtime group: 'junit', name: 'junit', version: '4.12'
+    testRuntime group: 'junit', name: 'junit', version: '4.12'
+}
+
+
+apply plugin: 'show-date-plugin'
