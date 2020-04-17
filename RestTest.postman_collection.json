@@ -1,0 +1,194 @@
+{
+	"info": {
+		"_postman_id": "3f727f70-632d-48df-b3a8-e33f9dcdb8a6",
+		"name": "RestTest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Exercise",
+			"item": [
+				{
+					"name": "ques2",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\n        \"id\": 101,\n        \"firstName\": \"Drishti\",\n        \"lastName\": \"Talwar\",\n        \"email\": \"drishti@gmail.com\",\n        \"programme\": \"Trainee\",\n        \"courses\": [\n            \"Java\",\n            \"Postman\"\n        ]\n    }"
+						},
+						"url": {
+							"raw": "http://localhost:8080/student",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"student"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ques4",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\n        \"id\": 102,\n        \"firstName\": \"Drishti1\",\n        \"lastName\": \"Talwar1\",\n        \"email\": \"drishti@gmail.com\",\n        \"programme\": \"Trainee1\",\n        \"courses\": [\n            \"Java\",\n            \"Postman\"\n        ]\n    }"
+						},
+						"url": {
+							"raw": "http://localhost:8080/student",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"student"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ques5",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\n        \"id\": 103,\n        \"firstName\": \"Drishti3\",\n        \"lastName\": \"Talwar3\",\n        \"email\": \"drishti123\",\n        \"programme\": \"Trainee3\",\n        \"courses\": [\n            \"Java\",\n            \"Postman\"\n        ]\n    }"
+						},
+						"url": {
+							"raw": "http://localhost:8080/student",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"student"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ques3",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:8080/student/?programme=Financial Analysis",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"student",
+								""
+							],
+							"query": [
+								{
+									"key": "programme",
+									"value": "Financial Analysis"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ques6(1)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:8080/student/?programme=Financial Analysis",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"student",
+								""
+							],
+							"query": [
+								{
+									"key": "programme",
+									"value": "Financial Analysis"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ques6(2)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:8080/student/?programme=Criminology",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"student",
+								""
+							],
+							"query": [
+								{
+									"key": "programme",
+									"value": "Criminology"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
